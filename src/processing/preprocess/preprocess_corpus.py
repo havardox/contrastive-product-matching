@@ -5,7 +5,7 @@ import random
 random.seed(42)
 import os
 
-from src.data import utils
+from contrastive_product_matching.data import utils
 
 if __name__ == '__main__':
 

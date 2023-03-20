@@ -33,10 +33,10 @@ from transformers.trainer_utils import get_last_checkpoint
 from transformers.utils import check_min_version
 from transformers.utils.versions import require_version
 
-from src.contrastive.models.modeling import ContrastiveClassifierModel
-from src.contrastive.data.datasets import ContrastiveClassificationDataset
-from src.contrastive.data.data_collators import DataCollatorContrastiveClassification
-from src.contrastive.models.metrics import compute_metrics_bce
+from contrastive_product_matching.contrastive.models.modeling import ContrastiveClassifierModel
+from contrastive_product_matching.contrastive.data.datasets import ContrastiveClassificationDataset
+from contrastive_product_matching.contrastive.data.data_collators import DataCollatorContrastiveClassification
+from contrastive_product_matching.contrastive.models.metrics import compute_metrics_bce
 
 from transformers import EarlyStoppingCallback
 

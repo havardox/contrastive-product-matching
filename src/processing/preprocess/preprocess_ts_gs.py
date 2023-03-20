@@ -7,7 +7,7 @@ random.seed(42)
 import os
 import glob
 
-from src.data import utils
+from contrastive_product_matching.data import utils
 
 
 def _cut_lspc(row):
