@@ -4,6 +4,10 @@ version = "0.1.0"
 description = "Data Integration Research"
 authors = ["Ralph Peeters"]
 
+packages = [
+  {include = "contrastive_product_matching"}
+]
+
 [tool.poetry.dependencies]
 python = "^3.9"
 nlpaug = "^1.1.11"

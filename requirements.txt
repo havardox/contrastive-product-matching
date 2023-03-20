@@ -1,0 +1,19 @@
+The lock file does not exist. Locking.
+Creating virtualenv contrastive-product-matching-VQqora-G-py3.10 in /home/harald/.cache/pypoetry/virtualenvs
+Updating dependencies
+Resolving dependencies...
+
+  FileNotFoundError
+
+  [Errno 2] No such file or directory: '/home/harald/Documents/Projects/Python/Machine Learning/contrastive-product-matching/poetry.lock'
+
+  at ~/.local/share/pypoetry/venv/lib/python3.10/site-packages/tomlkit/toml_file.py:17 in read
+      13│         self._path = path
+      14│ 
+      15│     def read(self) -> TOMLDocument:
+      16│         """Read the file content as a :class:`tomlkit.toml_document.TOMLDocument`."""
+    → 17│         with open(self._path, encoding="utf-8", newline="") as f:
+      18│             return loads(f.read())
+      19│ 
+      20│     def write(self, data: TOMLDocument) -> None:
+      21│         """Write the TOMLDocument to the file."""
